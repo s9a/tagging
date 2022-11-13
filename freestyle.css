@@ -1,0 +1,73 @@
+::selection {
+  background: indigo;
+  color: pink;
+}
+
+:root {
+  background-color: #ddd;
+  color: #201;
+}
+
+:any-link {
+  transition: 210ms ease-out;
+  background-color: darkmagenta;
+  color: oldlace;
+}
+
+:active {
+  background-color: blueviolet;
+  color: #eee;
+}
+
+:focus-within {
+  filter: hue-rotate(9deg);
+}
+
+:focus {
+  outline: thick outset;
+}
+
+:hover {
+  text-decoration-style: wavy;
+}
+
+mark {
+  filter: sepia(11%);
+  background-color: magenta;
+  color: #111;
+}
+
+html {
+  font-size: max(1em, 1vmin + 2vmax);
+  line-height: 1.61;
+}
+
+body {
+  display: flow-root;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: auto;
+}
+
+cite {
+  font-family: serif;
+}
+
+li, p {
+  font-family: sans-serif;
+}
+
+q {
+  font-style: oblique;
+  quotes: none;
+}
+
+nav {
+  display: flow-root;
+  font-size: 1.38rem;
+}
+
+menu {
+  display: flow-root;
+  font-size: 1.23rem;
+}
